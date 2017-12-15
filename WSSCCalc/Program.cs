@@ -41,7 +41,7 @@ namespace WSSCCalc
 
         private static void Subtract(double firstNumber, double secondNumber)
         {
-            double result = firstNumber - secondNumber;
+            double result = 0;
             Console.WriteLine("The result of " + firstNumber + "and " + secondNumber + "is " + result);
         }
 
